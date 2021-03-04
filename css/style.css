@@ -94,82 +94,81 @@ nav a:hover{
 }
 
 /*Req 5*/
-@media only screen and (max-width: 600px){
-  .container{
-    /*Your Code Here*/
-    display:grid;
-    grid-template-columns: 1fr 3fr 3fr 1fr;
-    grid-template-rows: auto auto auto auto;
-    gap: 20px;
-  }
-
-  header{
-    background-attachment: fixed; /* Parallax effect */     
-    background-position: center;  /* Parallax effect */
-    background-repeat: no-repeat; /* Parallax effect */
-    background-size: cover;       /* Parallax effect */
-    color: white;
-    height: 400px;                /* Parallax effect */
-      
-    /*Req 6a*/
-    /*Set margin */
-    margin-bottom: 25px;
-      
-    /*Req 6b*/
-    /*Set background-image to header.jpg */
-    background-image: url("../images/header.jpg");
-    background-repeat: no-repeat;
-  }
-
-  /*Req 7a*/
-  .about, .method, .client, .contacts{
-    /*Your Code Here*/
-    grid-column: 2/2;
-  }
-
-  /*Req 8a, 8b, and 8c*/
-  .about-image, .method-image, .client-image, .contact-image{
-    /*Your Code Here*/
-    grid-row: span 4;
-    max-height: 650 px;
-    max-width: 100%;
-  }
-
-  /*Req 7b & 8d*/
-  .about, .about-image{
-    /*Your Code Here*/
-    grid-row: 1/span 1;
-  }
-
-  /*Req 7b & 8d*/
-  .method, .method-image{
-    /*Your Code Here*/
-    grid-row: 2/span 1;
-    
-  }
-
-  /*Req 7b & 8d*/
-  .client, .client-image{
-      /*Your Code Here*/
-      grid-row: 3/span 1;
-  }
-
-  /*Req 7b & 8d*/
-  .contacts, .contact-image{
-      /*Your Code Here*/
-      grid-row: 4/span 1;
-
-  }
-
-  /*Req 9*/
-  .text{
-    background-color: rgba(255, 255, 255, .8);
-    border: 10px solid black;
-    padding: 30px;
-    /*Your code here:*/
-    text-align: center;
-  }
+.container{
+  /*Your Code Here*/
+  display:grid;
+  grid-template-columns: 1fr 3fr 3fr 1fr;
+  grid-template-rows: auto auto auto auto;
+  gap: 20px;
 }
+
+header{
+  background-attachment: fixed; /* Parallax effect */     
+  background-position: center;  /* Parallax effect */
+  background-repeat: no-repeat; /* Parallax effect */
+  background-size: cover;       /* Parallax effect */
+  color: white;
+  height: 400px;                /* Parallax effect */
+    
+  /*Req 6a*/
+  /*Set margin */
+  margin-bottom: 25px;
+
+  /*Req 6b*/
+  /*Set background-image to header.jpg */
+  background-image: url("../images/header.jpg");
+  background-repeat: no-repeat;
+}
+
+/*Req 7a*/
+.about, .method, .client, .contacts{
+  /*Your Code Here*/
+  grid-column: 2/2;
+}
+
+/*Req 8a, 8b, and 8c*/
+.about-image, .method-image, .client-image, .contact-image{
+  /*Your Code Here*/
+  grid-row: span 4;
+  max-height: 650 px;
+  max-width: 100%;
+}
+
+/*Req 7b & 8d*/
+.about, .about-image{
+  /*Your Code Here*/
+  grid-row: 1/span 1;
+}
+
+/*Req 7b & 8d*/
+.method, .method-image{
+  /*Your Code Here*/
+  grid-row: 2/span 1;
+  
+}
+
+/*Req 7b & 8d*/
+.client, .client-image{
+    /*Your Code Here*/
+    grid-row: 3/span 1;
+}
+
+/*Req 7b & 8d*/
+.contacts, .contact-image{
+    /*Your Code Here*/
+    grid-row: 4/span 1;
+
+}
+
+/*Req 9*/
+.text{
+  background-color: rgba(255, 255, 255, .8);
+  border: 10px solid black;
+  padding: 30px;
+  /*Your code here:*/
+  text-align: center;
+}
+
 
 @media all and (min-width: 880px){
     

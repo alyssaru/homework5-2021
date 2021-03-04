@@ -132,8 +132,8 @@ header{
   /*Your Code Here*/
   grid-column: 1/span 4;
   overflow: hidden;
-  min-width: 0;
-  max-height: 650 px;
+  max-width: auto;
+  max-height: 650px;
 }
 
 /*Req 7b & 8d*/

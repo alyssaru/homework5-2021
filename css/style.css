@@ -98,9 +98,9 @@ nav a:hover{
   .container{
     /*Your Code Here*/
     display:grid;
-    grid-template-columns: 50px auto 500px auto 50px;
-    grid-template-rows: 400px 425px 425px 400px;
-
+    grid-template-columns: 1fr 3fr 3fr 1fr;
+    grid-template-rows: auto auto auto auto;
+    gap: 20px;
   }
 
   header{
